@@ -22,7 +22,14 @@ git clone https://github.com/etops/frontend-test-project.git && cd frontend-test
 Install the dependencies
 
 ```bash
+cd etopsapp
 npm install
+```
+
+```bash
+cd frontendapp
+npm install
+bower install
 ```
 
 Start the backend server
@@ -35,7 +42,7 @@ node ./bin/www
 Start the fontend server
 
 ```bash
-cd frontendsapp
+cd frontendapp
 gulp serve
 ```
 
@@ -64,7 +71,7 @@ We want to test
 * how you work (mastering working environment)
 
 We do not need to have a complete working solution in the end.
-The Application has to run only in the newest version of a mordern browser.
+The Application has to run only in the newest version of a modern browser.
 
 
 
