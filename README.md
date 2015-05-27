@@ -25,26 +25,46 @@ Install the dependencies
 npm install
 ```
 
-Start the server
+Start the backend server
 
 ```bash
-node server.js
+cd etopsapp
+node ./bin/www
 ```
 
-Visit [http://localhost:8080](http://localhost:8080)
+Start the fontend server
 
+```bash
+cd frontendsapp
+gulp serve
+```
+
+Frontend App should open in browser.
+Backend runs on http://localhost:3000
+
+REST API for users
+http://localhost:3000/users
 
 Project description
 -------------------
 
-
-
+We want to build a simple user management system with a single page application.
+The goal is to show a list with all users in the system.
+By clicking on the user we show the detail information of the user.
+We can add/edit/remove a user.
 
 
 Evaluation
 ----------
 
+We want to test
 
+* if you have a basic understanding of AngularJS
+* if you have a basic understanding of HTML5 and CSS3
+* how you work (mastering working environment)
+
+We do not need to have a complete working solution in the end.
+The Application has to run only in the newest version of a mordern browser.
 
 
 
