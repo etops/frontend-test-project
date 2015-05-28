@@ -1,7 +1,8 @@
 Frontend Test Project
 =====================
 
-Evaluation for Etops Frontend Developer with Javascript and AngularJS.
+Evaluation for Etops Web App Developer with Javascript and AngularJS.
+This challenge is intendend to be developed in a pair programming session within an hour of time.
 
 Prerequisites
 -------------
@@ -39,7 +40,7 @@ cd etopsapp
 node ./bin/www
 ```
 
-Start the fontend server
+Start the frontend server
 
 ```bash
 cd frontendapp
